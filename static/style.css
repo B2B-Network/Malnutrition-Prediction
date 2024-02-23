@@ -1,0 +1,124 @@
+/* Common styles for both login and register pages */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* Login page styles */
+.login-body {
+     background-color: #87CEFA;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.login-container img {
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Register page styles */
+.register-body {
+
+     background-color: #87CEFA;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 70%; /* Adjust the width of the register container */
+    margin: 0 auto;
+}
+
+/* Form styles */
+/* ... existing styles ... */
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Add gap between form elements */
+}
+
+label {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Specific styles for email and password input fields */
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 5px; /* Reduce margin bottom for email and password input fields */
+    width: 100%; /* Set width to 100% */
+}
+
+/* Additional styles for user registration input fields */
+input[type="text"].user-input,
+input[type="password"].user-input {
+    width: calc(50% - 5px); /* Set width to 50% with a small gap */
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Link styles */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Additional styles for links to be on the same line */
+.link-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-container a {
+    text-align: center;
+    margin: 10px;
+}
